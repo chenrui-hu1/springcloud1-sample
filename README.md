@@ -85,7 +85,7 @@ sh startup.sh -m standalone
 cmd startup.cmd
 
 
-## Starting the Alibaba Sentinel Dashboard
+### Starting the Alibaba Sentinel Dashboard
 
 Alibaba Sentinel provides a dashboard for monitoring and managing rules in a graphical interface.
 
@@ -95,42 +95,6 @@ To start the Sentinel dashboard, execute the following command in the directory 
 java -Dserver.port=8080 -jar sentinel-dashboard-1.8.0.jar
 
 ### Using JMeter for Performance Testing
-
-以下是一个README.md文件的示例，包含了如何在本地启动Alibaba Sentinel控制台和使用JMeter进行性能测试的说明。
-
-markdown
-Copy code
-# Spring Cloud Sample Project with Alibaba Sentinel
-
-## Introduction
-
-This project demonstrates how to integrate Alibaba Sentinel for flow control and circuit breaking in a Spring Cloud application. Sentinel provides rich monitoring and robust fault-tolerance features to manage service stability.
-
-## Prerequisites
-
-- Java JDK 1.8 or later
-- Maven
-- Alibaba Sentinel
-- JMeter (for performance testing)
-
-## Setup
-
-1. Clone the repository to your local machine.
-2. Build the project with Maven.
-3. Start the required services (e.g., Nacos, MySQL).
-4. Start the Alibaba Sentinel dashboard.
-
-## Starting the Alibaba Sentinel Dashboard
-
-Alibaba Sentinel provides a dashboard for monitoring and managing rules in a graphical interface.
-
-To start the Sentinel dashboard, execute the following command in the directory where Sentinel is located:
-
-```bash
-java -Dserver.port=8080 -jar sentinel-dashboard-1.8.0.jar
-Replace 8080 with the desired port and sentinel-dashboard-1.8.0.jar with the version of Sentinel dashboard you have.
-
-Access the dashboard through http://localhost:8080/ on your web browser.
 
 Using JMeter for Performance Testing
 Apache JMeter is an open-source load testing tool. You can use it to test the performance and stability of your services under different load conditions.
