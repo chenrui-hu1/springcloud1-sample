@@ -20,7 +20,7 @@ Ensure Java and Maven are installed on your system and the `JAVA_HOME` environme
 1. Clone the repository to your local machine.
 2. Create MySQL databases `shop_product` and `shop_order`.
 3. Start the Nacos Service Discovery and Configuration server.
-4. 4. Start the Alibaba sentinel  and Jemeter to pull Http request.
+4.Start the Alibaba sentinel  and Jemeter to pull Http request.
 
 ## Services
 
