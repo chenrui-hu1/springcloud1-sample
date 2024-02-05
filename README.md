@@ -65,7 +65,7 @@ Server
 cd shop-order-server
 mvn spring-boot:run
 
-### Configuration
+## Configuration
 
 Each service has its own application.yml or application.properties file in the src/main/resources directory where you can set up datasource, server port, and other configurations.
 
@@ -76,7 +76,7 @@ spring.datasource: The datasource configuration.
 spring.jpa: The JPA/Hibernate configuration.
 spring.cloud.nacos.discovery.server-addr: The address of the Nacos server.
 
-### Nacos Setup
+## Nacos Setup
 
 # Linux/Mac
 sh startup.sh -m standalone
@@ -85,7 +85,7 @@ sh startup.sh -m standalone
 cmd startup.cmd
 
 
-### Starting the Alibaba Sentinel Dashboard
+## Starting the Alibaba Sentinel Dashboard
 
 Alibaba Sentinel provides a dashboard for monitoring and managing rules in a graphical interface.
 
@@ -94,7 +94,7 @@ To start the Sentinel dashboard, execute the following command in the directory 
 ```bash
 java -Dserver.port=8080 -jar sentinel-dashboard-1.8.0.jar
 
-### Using JMeter for Performance Testing
+## Using JMeter for Performance Testing
 
 Using JMeter for Performance Testing
 Apache JMeter is an open-source load testing tool. You can use it to test the performance and stability of your services under different load conditions.
